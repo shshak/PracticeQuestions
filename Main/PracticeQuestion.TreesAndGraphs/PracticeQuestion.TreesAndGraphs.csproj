@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1B5E6944-4913-466A-816D-8C5A9CD7B321}</ProjectGuid>
+    <ProjectGuid>{EFD5347F-9ACC-4DFF-8BF3-5A71BCDD933E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PracticeQuestion.Array</RootNamespace>
-    <AssemblyName>PracticeQuestion.Array</AssemblyName>
+    <RootNamespace>PracticeQuestion.TreesAndGraphs</RootNamespace>
+    <AssemblyName>PracticeQuestion.TreesAndGraphs</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Array.cs" />
-    <Compile Include="Array.StringCompression.cs" />
-    <Compile Include="Array.ReplaceSpaceInString.cs" />
-    <Compile Include="Array.ReverseString.cs" />
-    <Compile Include="Array.StringPermutation.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Array.UniqueCharInString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
